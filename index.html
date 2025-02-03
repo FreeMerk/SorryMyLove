@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Соня, прости меня</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #e74c3c;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+        }
+
+        .heart {
+            color: #e74c3c;
+            font-size: 2em;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Соня, прости меня! <span class="heart">❤️</span></h1>
+    <p>
+        Я знаю, что сильно обидел тебя своими словами. Это было глупо и неправильно.
+        Ты самый важный человек в моей жизни, и я не хочу терять тебя.
+        Ты заслуживаешь только любви и уважения, и я хочу быть тем, кто дарит тебе это каждый день.
+        Прости меня, пожалуйста.
+    </p>
+    <button onclick="forgive()">Простить меня</button>
+
+    <script>
+        function forgive() {
+            alert("Я сделаю всё, чтобы ты была счастлива, я тебя очень! ❤️");
+        }
+    </script>
+</body>
+
+</html>
